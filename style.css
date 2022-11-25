@@ -1,0 +1,70 @@
+flexbox {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+}
+
+.hero {
+    height: 700px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-image: url("images/headerimage.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+header {
+    padding: 25px;
+    text-align: right;
+    background: green;
+    color: white;
+}
+
+header div {
+    padding-top: 10px;
+    margin-right: 20px;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+}
+
+input,
+select,
+option,
+optgroup,
+textarea,
+button,
+pre,
+code {
+    font-size: 100%;
+    font-family: inherit;
+}
+
+ol,
+ul {
+    list-style: none;
+}
