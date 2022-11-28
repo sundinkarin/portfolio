@@ -9,12 +9,12 @@ html {
 }
 
 body {
-    font-family: Arial;
     margin: 0;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     justify-content: flex-start;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .hero {
@@ -28,7 +28,7 @@ body {
 }
 
 header {
-    padding: 25px;
+    padding: 1%;
     text-align: right;
     background: green;
     color: white;
@@ -67,4 +67,19 @@ code {
 ol,
 ul {
     list-style: none;
+    float: right;
+}
+
+.card img {
+    width: 100%;
+    min-width: 100px;
+    max-width: 200px;
+}
+
+.projects {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: flex-end;
+    width: 75%;
+    float: right;
 }
